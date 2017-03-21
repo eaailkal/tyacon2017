@@ -7,14 +7,14 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicon/favicon.ico">
 
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="favicon/manifest.json">
-    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#f1453d">
     <meta name="theme-color" content="#ffffff">
 
     <title>Tyacon 2017 - 6th National Conference on Teenage and Young Adult Cancer</title>
@@ -39,7 +39,7 @@
 
     <!-- Navbar with pills -->
     <!-- <div class="navbar navbar-default"> nav-pills -->
-	  <div class="navbar navbar-default">
+	  <nav class="navbar navbar-default">
 	        <div class="container">
 
 				  		<!-- Logo -->
@@ -53,11 +53,11 @@
 				      </div>
 
               <div class="collapse navbar-collapse" id="mynavbar-content">
+
 				        <ul class="nav navbar-nav navbar-right">
-				  		  <li class="active"><a href="#">Home</a></li>
 				  		  <!-- Drop Down Code -->
 				  		  <li class="dropdown">
-					        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conference <b class="caret"></b></a>
+					        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conference <span class="caret"></span></a>
 					        <ul class="dropdown-menu">
 					            <li><a href="#">Abstract Submission</a></li>
 					            <li><a href="#">Registration</a></li>
@@ -76,15 +76,17 @@
                 <li><a href="#contact">Contact</a></li>
 				  	    </ul>
 
-                <!-- Login button 
-                <button class="btn btn-primary btn-sm text-right" data-toggle="modal" data-target="#myModal">
-                  Login
-                </button> -->
-
 				      </div>
+
+              <!-- Sign in button
+              <form class="navbar-form navbar-right" role="signin">
+              <button type="button" class="btn btn-primary navbar-btn navbar-right btn-sm" data-toggle="modal" data-target="#myModal">
+                Sign in
+              </button>
+              </form>  -->
           
 	        </div>
-	  </div>
+	  </nav>
 
     </header>
 
